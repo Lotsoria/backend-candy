@@ -1,9 +1,9 @@
 import {Sequelize} from 'sequelize'
 
-const db = new Sequelize('barberia', 'root', '',{
-    host:'localhost',
+const db = new Sequelize('barberia', 'admin', 'Q3HH7DQ6',{
+    host:'database-estudiante.chagsyu6kyup.us-east-2.rds.amazonaws.com',
     dialect: 'mysql',
-    port:'3307'
+    port:'3308'
 })
 
 export default db
